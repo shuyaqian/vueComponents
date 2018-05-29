@@ -1,0 +1,1 @@
+module.exports=require('./lib/widget/cells/cells-item.vue')

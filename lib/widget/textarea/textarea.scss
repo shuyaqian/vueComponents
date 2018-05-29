@@ -1,0 +1,21 @@
+
+@import "../../style/fn.scss";
+
+// textarea
+//-----------------------------------------------------—-----------------
+.cmui-textarea {
+    flex: 1;
+    padding: 6;
+    background-color: $white;
+    font-size: $baseFontSize;
+    color: $grayDarker;
+    resize: none;
+    outline: 0;
+
+    &::placeholder {
+        color: $gray;
+    }
+}
+.is-disabled {
+    @include disabled($white, $grayDark);
+}

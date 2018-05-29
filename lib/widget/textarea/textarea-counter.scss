@@ -1,0 +1,44 @@
+
+@import "../../style/fn.scss";
+
+// textarea
+//-----------------------------------------------------—-----------------
+textarea {
+    flex: 1;
+    padding-top: 10;
+    padding-right: 14;
+    padding-bottom: 10;
+    padding-left: 14;
+    background-color: $white;
+    border-radius: 8;
+    font-size: $baseFontSize;
+    color: $grayDarker;
+    resize: none;
+    outline: 0;
+
+    &::placeholder {
+        color: $gray;
+    }
+}
+.is-disabled {
+    @include disabled($white, $grayDark);
+}
+.cmui-textarea {
+    &-counter {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 10;
+        padding-top: 10;
+    }
+    &-separate, &-text {
+        font-size: $baseFontSize;
+        color: $gray;
+    }
+    &-separate {
+        padding-left: 5;
+        padding-right: 5;
+    }
+    &-text-current {
+        color: $brandColor;
+    }
+}

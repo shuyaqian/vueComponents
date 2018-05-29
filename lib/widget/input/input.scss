@@ -1,0 +1,17 @@
+
+@import "../../style/fn.scss";
+
+// input
+//-----------------------------------------------------—-----------------
+.cmui-input {
+    flex: 1;
+    padding: 6;
+    height: 50;
+    line-height: 50;
+    background-color: $white;
+    font-size: $baseFontSize;
+
+}
+.is-disabled {
+    @include disabled($white, $grayDark);
+}

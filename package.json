@@ -1,0 +1,21 @@
+{
+  "name": "@ali/weex-ui-components",
+  "version": "1.2.20",
+  "description": "ui components base on weex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "keywords": [
+    "weex",
+    "ui",
+    "component"
+  ],
+  "author": "yaqian.syq",
+  "license": "ISC",
+  "_from": "@ali/weex-ui-components@1.1.8",
+  "_resolved": "http://registry.npm.alibaba-inc.com/@ali/weex-ui-components/download/@ali/weex-ui-components-1.1.8.tgz"
+}

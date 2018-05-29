@@ -1,0 +1,66 @@
+
+@import "../../style/fn.scss";
+
+// upload
+//-----------------------------------------------------—-----------------
+.cmui-upload {
+    padding: 24;
+    padding-top: 20;
+    padding-bottom: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1;
+    border-bottom-color: #ccc;
+
+    &-hd {
+        flex-direction: row;
+        align-items: flex-end;
+        margin-bottom: 20;
+    }
+    &-title {
+        flex: 1;
+        color: $grayDarker;
+        font-size: $middleFontSize;
+    }
+    &-info {
+        flex-direction: row;
+    }
+    &-num {
+        color: $brandColor;
+        font-size: $baseFontSize;
+    }
+    &-text {
+        color: $grayDark;
+        font-size: $baseFontSize;
+    }
+    &-desc {
+        margin-bottom: 20;
+        font-size: $smallFontSize;
+        color: $brandColor;
+    }
+
+    &-bd {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 20;
+        border-top-style: solid;
+        border-top-width: 1;
+        border-top-color: #ddd;
+    }
+    &-item, &-plus {
+        margin-right: 20;
+        margin-bottom: 20;
+        width: 150;
+        height: 150;
+    }
+    &-plus {
+        align-items: center;
+        justify-content: center;
+        border-style: dashed;
+        border-width: 1;
+        border-color: #ddd;
+    }
+}
+.cmui-icon-plus {
+    color: $gray;
+    font-size: 100;
+}

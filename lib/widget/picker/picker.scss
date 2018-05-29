@@ -1,0 +1,13 @@
+
+@import "../../style/fn.scss";
+
+// picker
+//-----------------------------------------------------
+.cmui-picker {
+    flex: 1;
+    color: $grayDarker;
+    font-size: $baseFontSize;
+}
+.cmui-placeholder {
+    color: $gray;
+}

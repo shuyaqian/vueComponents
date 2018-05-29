@@ -1,0 +1,19 @@
+
+@import '../../style/fn.scss';
+
+// col
+//-----------------------------------------------------
+.cmui-col {
+    flex: auto;
+}
+.cmui-col-0 {
+    width: 0
+}
+
+$columns: 24;
+
+@for $i from 0 through $columns {
+    .cmui-col-#{$i} {
+        flex: $i;
+    }
+}

@@ -1,0 +1,48 @@
+
+@import "../../style/fn.scss";
+
+// search
+//-----------------------------------------------------—-----------------
+
+.cmui-search {
+    flex-direction: row;
+    padding-top: 8;
+    padding-left: 10;
+    padding-bottom: 8;
+    padding-right: 10;
+
+    &-form {
+        flex: 10;
+        flex-direction: row;
+        border-style: solid;
+        border-color: $baseLine;
+        border-width: 1;
+        border-radius: $smallRadius;
+    }
+    &-box {
+        flex-direction: row;
+        flex: 10;
+        padding-left: 10;
+        height: 60;
+    }
+    &-input {
+        font-size: $smallFontSize;
+        flex: 12;
+        height: 60;
+        line-height: 60;
+        border: 0;
+    }
+    &-cancel {
+        flex: 1;
+        font-size: $smallFontSize;
+        line-height: 60;
+        color: #09BB07;
+        margin-left: 20;
+    }
+}
+.cmui-icon-search {
+    flex: 1;
+    line-height: 60;
+    font-size: $smallFontSize;
+    color: $grayDark;
+}

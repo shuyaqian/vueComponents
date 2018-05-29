@@ -1,0 +1,26 @@
+
+@import '../../style/fn.scss';
+
+// cell item
+//-----------------------------------------------------
+.cmui-cell {
+    flex-direction: row;
+    align-items: center;
+    padding-right: 24;
+    border-style: solid;
+    border-color: $baseLine;
+    border-bottom-width: 1;
+
+    &-bd {
+        flex: 1;
+        padding-left: 24;
+        font-size: $baseFontSize;
+        color: $grayDarker;
+    }
+}
+.cmui-cell:active {
+    background-color: #E0E0E0;
+}
+.cmui-icon-access {
+    font-size: $largeFontSize;
+}

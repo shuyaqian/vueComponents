@@ -1,0 +1,1 @@
+module.exports=require('./lib/widget/menu/menu.vue')

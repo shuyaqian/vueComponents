@@ -1,0 +1,48 @@
+// Brand_品牌色
+//-----------------------------------------------------
+$brandColor:			#FF6A00 !default;
+$brandColor_2:			#F05800 !default;
+
+
+// topic_主题色
+//-----------------------------------------------------
+$topicColor:			#0184d7 !default;
+
+
+// Neutral_中立色
+//-----------------------------------------------------
+$black: 				#000 !default;
+$white: 				#FFF !default;
+
+$grayLight:				#C7C7C7 !default;
+$gray:					#999 !default;
+$grayDark:				#666 !default;
+$grayDarker:			#333 !default;
+
+$lightBackgroundColor:	#F7F8FA !default;	// 浅底
+$baseBackgroundColor:	#F2F3F7 !default;	// 常规底
+$darkBackgroundColor:	#EBECF0 !default;	// 深底
+
+$lightLine:				#E6E7EB !default;	// 浅线
+$baseLine:				#DCDED3 !default;	// 常规线
+$darkLine:				#C4C6CF !default;	// 深线
+$heavyLine:				#A0A2AD !default;	// 重线
+
+
+// Opacity_透明色
+//-----------------------------------------------------
+$opacityColorD1:		rgba(0, 0, 0, 0.1) !default;
+$opacityColorD2:		rgba(0, 0, 0, 0.2) !default;
+$opacityColorD5:		rgba(0, 0, 0, 0.5) !default;
+$opacityColorD7:		rgba(0, 0, 0, 0.7) !default;
+$opacityColorF:			rgba(255, 255, 255, 0.5) !default;
+
+
+// Functional_功能色
+//-----------------------------------------------------
+$warning:				#F33 !default;
+
+$blueForLine:			#038EE7 !default;
+$blueForBg:				#0289DF !default;
+$blueForMod:			$topicColor;
+$blueForIcon:			#1086CC !default;

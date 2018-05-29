@@ -1,0 +1,10 @@
+// disabled
+// 禁用样式
+//-----------------------------------------------------
+@mixin disabled($bgColor: #e6e6e6, $textColor: #999) {
+	background-color: $bgColor;
+	color: $textColor;
+}
+%disabled {
+	@include disabled();
+}

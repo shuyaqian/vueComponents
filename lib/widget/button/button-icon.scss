@@ -1,0 +1,130 @@
+
+@import '../../style/fn.scss';
+
+// button
+//-----------------------------------------------------
+.cmui-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-left: 30;
+    padding-right: 30;
+    height: 56;
+    background-color: $lightBackgroundColor;
+    border-style: solid;
+    border-color: $darkLine;
+    border-width: 1;
+    border-radius: 10;
+
+    &:active {
+        background-color: $baseBackgroundColor;
+        border-color: $heavyLine;
+    }
+    &-inner {
+        line-height: 56;
+        font-size: $baseFontSize;
+        color: $grayDarker;
+        text-align: center;
+        white-space: nowrap;
+    }
+    &-first {
+        border-right-color: $white;
+        border-radius: 0;
+        border-top-left-radius: 10;
+        border-bottom-left-radius: 10;
+    }
+    &-last {
+        border-left-color: $white;
+        border-radius: 0;
+        border-top-right-radius: 10;
+        border-bottom-right-radius: 10;
+    }
+    // primary
+    &-primary {
+        background-color: $brandColor;
+        border-color: transparent;
+
+        &:active {
+            background-color: #e35300;
+            border-color: transparent;
+        }
+    }
+    &-inner-primary {
+        color: $white;
+    }
+    // secondary
+    &-secondary {
+        border-color: $brandColor;
+        background-color: #fff0e6;
+
+        &:active {
+            background-color: $brandColor;
+            border-color: $brandColor;
+            color: $white;
+        }
+    }
+    &-inner-secondary {
+        color: $grayDark;
+    }
+    // warning
+    &-warning {
+        background-color: $warning;
+        border-color: $warning;
+
+        &:active {
+            background-color: #e61c1c;
+            border-color: #e61c1c;
+        }
+    }
+    &-inner-warning {
+        color: $white;
+    }
+    // 文字按钮
+    &-text {
+        background-color: transparent;
+        border-width: 0;
+
+        &:active {
+            color: $brandColor;
+            background-color: transparent;
+        }
+    }
+    &-inner-text {
+        color: $topicColor;
+    }
+    // small
+    &-small {
+        height: 40;
+        padding-left: 24;
+        padding-right: 24;
+    }
+    &-inner-small {
+        line-height: 40;
+        font-size: 24;
+    }
+    // large
+    &-large {
+        height: 80;
+        padding-left: 40;
+        padding-right: 40;
+    }
+    &-inner-large {
+        line-height: 80;
+        font-size: $middleFontSize;
+    }
+    // disabled
+    &-disabled {
+        background-color: $lightBackgroundColor;
+        border-color: #dcdee3;
+
+        &:active {
+            background-color: $lightBackgroundColor;
+            border-color: #dcdee3;
+        }
+    }
+    &-inner-disabled {
+        color: #ccc;
+    }
+}

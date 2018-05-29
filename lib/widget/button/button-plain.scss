@@ -1,0 +1,99 @@
+
+@import '../../style/fn.scss';
+
+$componentName: 'cmui-button';
+
+// plain button
+//-----------------------------------------------------
+.#{$componentName}-plain {
+    padding: 0;
+    padding-left: 30;
+    padding-right: 30;
+    height: 56;
+    line-height: 56;
+    background-color: $white;
+    border-style: solid;
+    border-color: $darkLine;
+    border-width: 1;
+    border-radius: 10;
+    text-align: center;
+    font-size: 28;
+    color: $grayDarker;
+    white-space: nowrap;
+
+    &:active {
+        background-color: $white;
+        border-color: $heavyLine;
+    }
+}
+
+// primary
+.#{$componentName}-primary {
+    background-color: $white;
+    border-color: $darkLine;
+    color: $brandColor;
+
+    &:active {
+        background-color: $white;
+        border-color: $brandColor;
+    }
+}
+
+// secondary
+.#{$componentName}-secondary {
+    background-color: $white;
+    border-color: $darkLine;
+    color: lighten($brandColor, 30%);
+
+    &:active {
+        background-color: $white;
+        border-color: lighten($brandColor, 30%);
+    }
+}
+
+// warning
+.#{$componentName}-warning {
+    background-color: $white;
+    border-color: $darkLine;
+    color: $warning;
+
+    &:active {
+        background-color: $white;
+        border-color: $warning;
+    }
+}
+
+// small
+.#{$componentName}-small {
+    padding-left: 24;
+    padding-right: 24;
+    height: 40;
+    line-height: 40;
+    font-size: $smallFontSize;
+}
+
+// large
+.#{$componentName}-large {
+    height: 80;
+    padding-left: 40;
+    padding-right: 40;
+    font-size: $middleFontSize;
+    line-height: 80;
+}
+
+// disabled
+.#{$componentName}-disabled {
+    background-color: $white;
+    border-color: #dcdee3;
+    color: #ccc;
+    text-decoration: none;
+    cursor: not-allowed;
+
+    &:active {
+        background-color: $white;
+        border-color: #dcdee3;
+        color: #ccc;
+        text-decoration: none;
+        cursor: not-allowed;
+    }
+}

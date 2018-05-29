@@ -1,0 +1,56 @@
+
+@import '../../style/fn.scss';
+
+// cell item
+//-----------------------------------------------------
+.cmui-cell {
+    border-style: solid;
+    border-color: $baseLine;
+    border-bottom-width: 1;
+    &-row {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 24;
+        margin-right: 24;
+    }
+    &-hd {
+        margin-right: 10;
+    }
+    &-icon {
+        width: 40;
+        height: 40;
+    }
+    &-bd {
+        font-size: $baseFontSize;
+        color: $grayDarker;
+        flex: 1;
+    }
+    &-fi {
+        font-size: $baseFontSize;
+        color: $grayDarker;
+        flex: 2;
+        height: 90;
+    }
+    &-ft {
+        font-size: $baseFontSize;
+        color: $grayDarker;
+        flex: 2;
+        min-height: 90;
+    }
+    &-warn {
+        font-size: $smallFontSize;
+        color: $warning;
+        flex: 2;
+    }
+    &-ph {
+        font-size: $baseFontSize;
+        color: $gray;
+    }
+    &-access {
+        padding-right: 0;
+    }
+    &-last {
+        border-bottom-width: 0;
+    }
+}
+

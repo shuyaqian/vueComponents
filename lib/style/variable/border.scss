@@ -1,0 +1,24 @@
+//border
+//-----------------------------------------------------
+@mixin setBorder($borderColor: $baseLine, $borderStyle: solid) {
+    border-style: $borderStyle;
+    border-color: $borderColor;
+    border-width: 1;
+}
+
+@mixin baseBorder() {
+    @include setBorder();
+}
+
+@mixin darkBorder() {
+    @include setBorder($darkLine);
+}
+
+@mixin heavyBorder() {
+    @include setBorder($heavyLine);
+}
+
+// radius
+//-----------------------------------------------------
+$baseRadius: 10;
+$smallRadius: 6;

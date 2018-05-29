@@ -1,0 +1,113 @@
+
+@import '../../style/fn.scss';
+
+// menu组件
+// 导航
+//-----------------------------------------------------
+.cmui-tab {
+    flex-direction: row;
+    width: 750;
+    min-width: 0;
+    height: 80;
+    background-color: $white;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+
+    &-item {
+        flex: 1;
+        flex-direction: row;
+        border-left-width: 2;
+        border-left-color: $baseLine;
+        border-bottom-color: $baseLine;
+        border-bottom-width: 2;
+    }
+    &-ft {
+        flex-direction: row;
+        width: 140;
+        border-bottom-color: $baseLine;
+        border-bottom-width: 2;
+    }
+    &-items {
+        flex: 1;
+        flex-direction: row;
+        border-bottom-color: $baseLine;
+        border-bottom-width: 2;
+    }
+    &-container {
+        flex: 1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    &-text {
+        font-size: $baseFontSize;
+        color: $grayDark;
+        padding-right: 10;
+    }
+    &-fttext {
+        flex: 1;
+        text-align: center;
+        margin-top: 20;
+        margin-bottom: 20;
+        line-height: 40;
+        font-size: $baseFontSize;
+        color: $grayDark;
+        border-left-width: 2;
+        border-left-color: $baseLine;
+    }
+    &-icon {
+        width: 27;
+        height: 23;
+    }
+}
+.cmui-options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30;
+    padding-bottom: 10;
+    position: absolute;
+    width: 750;
+    top: -400px;
+    background-color: $white;
+    &-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .4);
+    }
+    &-item {
+        margin-right: 20;
+        margin-bottom: 20;
+    }
+    &-text {
+        font-size: 24;
+        padding: 14;
+        border-radius: 5;
+    }
+}
+.customer-total-container {
+    position: absolute;
+    background-color: $white;
+    top: 80;
+    height: 68;
+    width: 750;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 32;
+    border-bottom-color: #DCDEE3;
+    border-bottom-width: 2;
+}
+.customer-total {
+    font-size: 24;
+    color: #666666;
+}
+.clear-condition {
+    font-size: 24;
+    color: #81BEFF;
+}
+
+

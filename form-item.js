@@ -1,0 +1,1 @@
+module.exports=require('./lib/widget/form/form-item.vue')

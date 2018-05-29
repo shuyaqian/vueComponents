@@ -1,0 +1,14 @@
+// Text overflow
+// 元素可以设置宽度才可应用省略号
+//-----------------------------------------------------
+@mixin ellipsis($width: 100%) {
+	overflow: hidden;
+	width: $width;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-wrap: normal;
+}
+@mixin text_wrap() {
+	word-wrap:break-word;
+	word-break:break-all;
+}

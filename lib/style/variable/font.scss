@@ -1,0 +1,14 @@
+// font相关
+//-----------------------------------------------------
+// 基础字体
+$cmuiFontEN:        -apple-system-font, "Helvetica Neue";
+$cmuiFontCN:        "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei";
+$cmuiFontSans:      sans-serif;
+
+$cmuiFontDefault:   $cmuiFontEN, $cmuiFontCN, $cmuiFontSans;
+
+// 字体类型分为大、中等、基础和小字体四种类型
+$largeFontSize:     36;
+$middleFontSize:    32;
+$baseFontSize:      28;
+$smallFontSize:     24;

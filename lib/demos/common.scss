@@ -1,0 +1,51 @@
+.page {
+    padding-left: 24;
+    padding-top: 20;
+    padding-bottom: 20;
+}
+.sub-title {
+    font-weight: 400;
+    color: #333;
+}
+.title {
+    flex: 1;
+    margin-top: 20;
+    font-size: 30;
+    font-weight: 800;
+    background-image: linear-gradient(to right,#0289df,#42b983);
+    padding-top: 10;
+    padding-bottom: 10;
+    padding-left: 10;
+    color: #FFFFFF;
+}
+.sub-title {
+    margin-top: 90;
+    margin-bottom: 30;
+    font-size: 44;
+}
+.desc {
+    margin-top: 40;
+    margin-left: 10;
+    margin-bottom: 16;
+    font-size: 28;
+    color: #333;
+}
+.demo-block {
+    padding: 40;
+    margin-right: 20;
+    margin-bottom: 20;
+    border-style: solid;
+    border-color: #42b983;
+    border-width: 1;
+    border-radius: 8;
+}
+.component-title {
+    flex-direction:row;
+    margin-right: 20;
+}
+.logo-img {
+    width: 80;
+    height: 56;
+    margin-top: 18;
+    margin-right: 10;
+}

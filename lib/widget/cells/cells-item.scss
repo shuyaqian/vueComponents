@@ -1,0 +1,25 @@
+
+@import '../../style/fn.scss';
+
+// cells item
+//-----------------------------------------------------
+.cmui-cells {
+    margin-bottom: 20;
+    overflow: hidden;
+    background-color: $white;
+    border-style: solid;
+    border-bottom-width: 1;
+    border-color: $baseLine;
+
+    &-title {
+        padding-left: 24;
+        padding-top: 32;
+        padding-right: 24;
+        padding-bottom: 20;
+        border-style: solid;
+        border-bottom-width: 1;
+        border-color: $baseLine;
+        color: $grayDarker;
+        font-size: $middleFontSize;
+    }
+}
